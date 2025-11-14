@@ -17,13 +17,15 @@ nano ~/bin/chia_summary.sh
 
 Paste the script into the editor, then save and exit (`Ctrl+O`, `Enter`, `Ctrl+X`).
 
-### 2. Make it executable
+### 2. Edit `chia_summary.sh` script and update the `harvester_names` collection for your configuration. This will map the IP Addresses to a Nickname.
+
+### 3. Make it executable
 
 ```bash
 chmod +x ~/bin/chia_summary.sh
 ```
 
-### 3. Add `~/bin` to your PATH (if not already)
+### 4. Add `~/bin` to your PATH (if not already)
 
 Edit your shell profile (`~/.bashrc`, `~/.zshrc`, or `~/.profile`) and add:
 
@@ -84,3 +86,4 @@ You can modify the script to:
 This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ```
+
